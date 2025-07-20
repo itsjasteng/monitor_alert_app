@@ -13,7 +13,6 @@ Our application comes packed with essential functionalities to ensure comprehens
 * **User Authentication & Profile Management:**
     * Secure login system with email and password validation.
     * Password visibility toggle for enhanced usability.
-    * Placeholder functionalities for "Forgot Password" and "Create Account."
     * Ability for caregivers to view and update their personal profile information.
 
 * **Child Profile Management:**
