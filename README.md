@@ -2,7 +2,7 @@
 
 ## 🌟 Overview
 
-The Child Safety Monitoring Application is a robust and intuitive mobile solution designed to provide caregivers with real-time insights into their children's well-being and location. Leveraging wearable technology, this application aims to enhance peace of mind by offering features such as live location tracking, vital sign monitoring, activity logging, and customizable alerts.
+The Child Safety Monitoring and Alert Application is a robust and intuitive mobile solution designed to provide caregivers with real-time insights into their children's well-being and location. Leveraging wearable technology, this application aims to enhance peace of mind by offering features such as live location tracking, vital sign monitoring, activity logging, and customizable alerts.
 
 This project demonstrates a modern Flutter application architecture, showcasing effective state management, navigation, and user interface design for a critical safety application.
 
@@ -58,51 +58,6 @@ Our application comes packed with essential functionalities to ensure comprehens
 * **Dart:** The programming language used by Flutter.
 * **go_router:** A declarative routing package for Flutter, simplifying navigation management.
 
-## 🚀 Getting Started
-
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-* [Flutter SDK](https://flutter.dev/docs/get-started/install) installed and configured.
-* [Android Studio](https://developer.android.com/studio) or [VS Code](https://code.visualstudio.com/) with Flutter plugins.
-* **Java Development Kit (JDK) Version 11 or higher** (ensure your `JAVA_HOME` environment variable points to JDK 11+ for Android builds).
-
-### Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone <repository_url>
-    cd child_safety_app
-    ```
-2.  **Install Flutter dependencies:**
-    ```bash
-    flutter pub get
-    ```
-3.  **Add the map image asset:**
-    * Create a folder named `assets` in the root of your project.
-    * Inside `assets`, create another folder named `images`.
-    * Place your desired map image file (e.g., `map.webp`, `map.png`, or `map.jpg`) into the `assets/images/` directory.
-    * Ensure your `pubspec.yaml` file includes the asset path:
-        ```yaml
-        flutter:
-          uses-material-design: true
-          assets:
-            - assets/images/
-        ```
-    * Run `flutter pub get` again after updating `pubspec.yaml`.
-
-### Running the Application
-
-1.  **Connect a device or start an emulator:**
-    ```bash
-    flutter devices
-    ```
-2.  **Run the app:**
-    ```bash
-    flutter run
-    ```
-
 ## 🛣️ Future Enhancements
 
 * Integration with real wearable devices and backend APIs.
@@ -116,6 +71,3 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request.
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
