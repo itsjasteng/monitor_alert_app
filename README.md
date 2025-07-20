@@ -1,4 +1,4 @@
-# project
+# MONITORING AND AALERT SYSTEM APP
 
 A new Flutter project.
 
